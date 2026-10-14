@@ -1,6 +1,6 @@
-# Travel Journal na Prática
+# Oficina de Memórias
 
-Landing page da imersão online **Travel Journal na Prática**, da Coração de Papel, em Next.js (App Router).
+Landing page da imersão online **Oficina de Memórias**, da Coração de Papel, em Next.js (App Router).
 
 ## Rodar localmente
 
