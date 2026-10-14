@@ -3,13 +3,13 @@ import ZoomButton, { ZoomDialog } from "@/components/SampleZoom";
 export default function Home() {
   return (
     <>
-<div className="strip"><span>TRAVEL JOURNAL NA PRÁTICA</span><span>24 OUT · 15H · GOOGLE MEET</span></div>
+<div className="strip"><span>OFICINA DE MEMÓRIAS</span><span>24 OUT · 15H · GOOGLE MEET</span></div>
 
 <header id="inicio">
   <div className="wrap">
-    <a className="logo" href="#inicio" aria-label="Travel Journal na Prática, início">
+    <a className="logo" href="#inicio" aria-label="Oficina de Memórias, início">
       <svg width="35" height="40" viewBox="0 0 35 40" fill="none" stroke="#303a2b" strokeWidth="1.3" strokeLinejoin="round" aria-hidden="true"><path d="M17.5 12.5c-3.6-2.2-8.6-2.9-15-2.3v18.6c6.4-.6 11.4.1 15 2.3 3.6-2.2 8.6-2.9 15-2.3V10.2c-6.4-.6-11.4.1-15 2.3Z"/><path d="M17.5 12.5v18.6"/></svg>
-      <span><b>travel journal</b><small>NA PRÁTICA · CORAÇÃO DE PAPEL</small></span>
+      <span><b>oficina de memórias</b><small>CORAÇÃO DE PAPEL</small></span>
     </a>
     <nav className="menu" aria-label="Menu principal">
       <a href="#projeto">O projeto</a>
@@ -23,7 +23,7 @@ export default function Home() {
 <main>
 <section className="wrap hero">
   <div className="hero-copy">
-    <p className="eyebrow">Travel Journal na Prática · com Silmara</p>
+    <p className="eyebrow">Oficina de Memórias · com Silmara</p>
     <h1>Aprenda a montar um<br className="d" /> Travel Journal completo em<br className="d" /> uma imersão de 2 horas</h1>
     <p className="lead">Descubra como combinar fotos, papéis e frases para registrar uma viagem que viveu ou planejar a próxima, com orientação passo a passo, mesmo que seja seu primeiro journal.</p>
     <ul className="check">
@@ -119,7 +119,7 @@ export default function Home() {
   <div className="wrap">
     <h2 className="h2">Veja o que você vai receber para<br className="d" /> começar seu travel journal.</h2>
     <div className="deliver">
-      <article><span className="n">01</span><h3>Imersão Travel Journal na Prática —<br className="d" /> 2 horas</h3><p>Acompanhe a montagem da abertura e de uma página dupla, com explicações sobre as escolhas feitas em cada etapa.</p></article>
+      <article><span className="n">01</span><h3>Oficina de Memórias —<br className="d" /> 2 horas</h3><p>Acompanhe a montagem da abertura e de uma página dupla, com explicações sobre as escolhas feitas em cada etapa.</p></article>
       <article><span className="n">02</span><h3>Lista Pronta para Começar</h3><p>Saiba quais materiais separar antes da imersão e confira o que você já tem em casa.</p></article>
       <article><span className="n">03</span><h3>Seleção de Fotos e Memórias</h3><p>Um roteiro para escolher as fotos, os acontecimentos e os pequenos registros que vão entrar nas suas primeiras páginas.</p></article>
       <article><span className="n">04</span><h3>Kit Digital da Imersão</h3><p>Imprima os papéis e elementos usados no projeto da aula para acompanhar a montagem com a mesma base.</p></article>
@@ -188,7 +188,7 @@ export default function Home() {
 
 <section className="band pad100 bg-1 who">
   <div className="wrap">
-    <h2 className="h2">A Imersão Travel Journal na Prática<br className="d" /> é para quem:</h2>
+    <h2 className="h2">A Oficina de Memórias<br className="d" /> é para quem:</h2>
     <ul className="check">
       <li>Quer começar seu primeiro journal de viagem.</li>
       <li>Está com dúvidas sobre como combinar papéis.</li>
@@ -208,7 +208,7 @@ export default function Home() {
   <div className="get">
     <div className="get-l">
       <h2 className="h2">Seu próximo projeto já tem<br className="d" /> por onde começar.</h2>
-      <p>Ao se inscrever na Imersão Travel Journal na Prática, você recebe:</p>
+      <p>Ao se inscrever na Oficina de Memórias, você recebe:</p>
     </div>
     <div className="get-r">
       <ul className="check">
@@ -243,7 +243,7 @@ export default function Home() {
   <div className="wrap offer">
     <div className="offer-l">
       <h2 className="h2">Reserve duas horas para<br className="d" /> começar a colocar sua<br className="d" /> viagem no papel.</h2>
-      <p>Participe da Imersão Travel Journal na Prática e aprenda a montar suas primeiras páginas com orientação.</p>
+      <p>Participe da Oficina de Memórias e aprenda a montar suas primeiras páginas com orientação.</p>
       <h3>Tudo o que você recebe na inscrição:</h3>
       <ul className="items">
         <li><b>Imersão ao vivo de 2 horas</b><span>Montagem orientada com Silmara, pelo Google Meet.</span></li>
@@ -262,7 +262,7 @@ export default function Home() {
     </div>
     <aside className="price" aria-label="Inscrição">
       <span className="tape" aria-hidden="true"></span>
-      <p className="eyebrow">Travel Journal na Prática</p>
+      <p className="eyebrow">Oficina de Memórias</p>
       <p className="from">De <s>R$ 197</s></p>
       <p className="por">por</p>
       <p className="val">R$ 87</p>
@@ -330,7 +330,7 @@ export default function Home() {
 
 <footer>
   <div className="wrap">
-    <a className="f-logo" href="#inicio"><b>travel journal</b><i>na prática</i></a>
+    <a className="f-logo" href="#inicio"><b>oficina</b><i>de memórias</i></a>
     <div className="f-info">
       <p><b>Coração de Papel</b> · CNPJ: 57.653.486/0001-84</p>
       <p>falecom@coracaodepapelofcial.com · (31) 99229-7012</p>
