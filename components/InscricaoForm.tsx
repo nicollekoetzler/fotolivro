@@ -60,7 +60,7 @@ export default function InscricaoForm() {
       <p className="eyebrow">Inscrição</p>
       <div className="field">
         <label htmlFor="nome">Nome</label>
-        <input id="nome" name="nome" autoComplete="name" maxLength={120} value={nome}
+        <input id="nome" name="nome" autoComplete="name" placeholder="Seu nome completo" maxLength={120} value={nome}
           onChange={(e) => setNome(e.target.value)} aria-invalid={!!errors.nome} aria-describedby="nome-err" />
         <span className="err" id="nome-err">{errors.nome}</span>
       </div>
