@@ -63,7 +63,7 @@ export default function Home() {
 <section className="band pad100 bg-4" id="participar">
   <div className="wrap offer">
     <div className="offer-l">
-      <p className="eyebrow">Oficina presencial com Andréa Koetzler · 18 de novembro, das 13h30 às 17h30</p>
+      <p className="eyebrow">18 de novembro · 13h30 às 17h30</p>
       <h2 className="h2">Quero participar da<br className="d" /> <em>Oficina de Memórias.</em></h2>
       <p>Deixe seu nome e contato. Você recebe o valor e como confirmar sua vaga.</p>
     </div>
