@@ -4,7 +4,7 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Oficina de Memórias · com Andréa Koetzler",
   description:
-    "Oficina presencial de cerca de 4 horas para montar seu álbum de memórias com fotos impressas, curadoria, diagramação e um cartão afetivo, com Andréa Koetzler. Na Luzia Trattoria.",
+    "Oficina presencial em 18 de novembro, das 13h30 às 17h30, para montar seu álbum de memórias com fotos impressas, curadoria, diagramação e um cartão afetivo, com Andréa Koetzler. Na Luzia Trattoria.",
 };
 
 export const viewport: Viewport = {
