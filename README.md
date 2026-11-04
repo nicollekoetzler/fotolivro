@@ -1,6 +1,6 @@
 # Oficina de Memórias
 
-Landing page da oficina presencial **Oficina de Memórias**, na Luzia Trattoria, em Next.js (App Router). Três seções: apresentação, explicação e informações, e formulário de inscrição.
+Landing page da oficina presencial **Oficina de Memórias**, conduzida por Andréa Koetzler na Luzia Trattoria, em Next.js (App Router). Três seções: apresentação, explicação e informações, e formulário de inscrição.
 
 ## Rodar localmente
 

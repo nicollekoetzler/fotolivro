@@ -2,9 +2,9 @@ import type { Metadata, Viewport } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Oficina de Memórias · Luzia Trattoria",
+  title: "Oficina de Memórias · com Andréa Koetzler",
   description:
-    "Oficina presencial de cerca de 4 horas para montar seu álbum de memórias com fotos impressas, curadoria, diagramação e um cartão afetivo. Na Luzia Trattoria.",
+    "Oficina presencial de cerca de 4 horas para montar seu álbum de memórias com fotos impressas, curadoria, diagramação e um cartão afetivo, com Andréa Koetzler. Na Luzia Trattoria.",
 };
 
 export const viewport: Viewport = {

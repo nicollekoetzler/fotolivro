@@ -3,12 +3,12 @@ import InscricaoForm from "@/components/InscricaoForm";
 export default function Home() {
   return (
     <>
-<div className="strip"><span>OFICINA DE MEMÓRIAS</span><span>ENCONTRO PRESENCIAL · LUZIA TRATTORIA</span></div>
+<div className="strip"><span>OFICINA DE MEMÓRIAS · COM ANDRÉA KOETZLER</span><span>ENCONTRO PRESENCIAL · LUZIA TRATTORIA</span></div>
 
 <main id="inicio">
 <section className="wrap hero">
   <div className="hero-copy">
-    <p className="eyebrow">Oficina presencial · cerca de 4 horas</p>
+    <p className="eyebrow">Oficina presencial com Andréa Koetzler · cerca de 4 horas</p>
     <h1>Oficina de Memórias:<br className="d" /> suas fotos favoritas<br className="d" /> em um álbum feito à mão</h1>
     <p className="lead">Um encontro para celebrar nossas fotografias mais preciosas e colocá-las em um álbum, para revivê-las a qualquer tempo com a família e os amigos.</p>
     <ul className="check">
@@ -51,6 +51,8 @@ export default function Home() {
       <div>
         <p className="eyebrow">Materiais coletivos</p>
         <p className="info-text">Canetas, furadores, tesouras, fitas e papéis de scrapbook para todas usarem.</p>
+        <p className="eyebrow">Quem conduz</p>
+        <p className="info-text"><b>Andréa Koetzler</b> organiza e conduz a oficina, com dicas de curadoria, diagramação e personalização do álbum.</p>
         <p className="eyebrow">Local</p>
         <p className="info-text"><b>Luzia Trattoria</b>, um lugar aconchegante para boas conversas, aprendizados e comidinhas gostosas.</p>
       </div>
@@ -71,7 +73,7 @@ export default function Home() {
 
 <footer>
   <div className="wrap">
-    <a className="f-logo" href="#inicio"><b>Oficina de Memórias</b><i>Luzia Trattoria</i></a>
+    <a className="f-logo" href="#inicio"><b>Oficina de Memórias</b><i>com Andréa Koetzler · na Luzia Trattoria</i></a>
     <a className="to-top" href="#inicio">Voltar ao início ↑</a>
   </div>
 </footer>
