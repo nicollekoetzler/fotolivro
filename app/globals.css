@@ -321,3 +321,23 @@ footer .wrap{display:flex;gap:40px;justify-content:space-between;align-items:fle
   .price .val{font-size:54px}
   .btn{white-space:normal}
 }
+
+/* oficina de memórias: informações e formulário */
+.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:65px;padding-top:56px}
+.info-grid>div{display:flex;flex-direction:column;gap:12px}
+.info-text{font-size:14px;line-height:23.1px;color:var(--text-2);padding-bottom:12px}
+.info-text b{color:var(--ink)}
+.form-card{display:flex;flex-direction:column;gap:18px;text-align:left}
+.form-card h3{font-size:32px;line-height:1.15;letter-spacing:-.5px}
+.form-card>p:not(.eyebrow){font-size:14px;line-height:23.1px}
+.field{display:flex;flex-direction:column;gap:6px}
+.field label{font:700 10px/15px var(--sans);letter-spacing:1.6px;text-transform:uppercase;color:var(--olive)}
+.field input{font:15px/1.4 var(--sans);color:var(--ink);background:var(--bg);border:1px solid #cfd3c0;border-radius:3px;padding:13px 14px;width:100%}
+.field input:focus{outline:none;border-color:var(--olive)}
+.field input[aria-invalid="true"]{border-color:var(--rust)}
+.field .err{font-size:12px;line-height:18px;color:var(--rust);min-height:18px}
+.form-card .btn{width:100%;justify-content:space-between;cursor:pointer}
+.form-card .btn:disabled{opacity:.65;cursor:default}
+.form-status{font-size:12px;line-height:19px;color:var(--rust);min-height:19px}
+@media (max-width:860px){.info-grid{grid-template-columns:1fr;gap:28px;padding-top:40px}}
+html,body{overflow-x:clip}

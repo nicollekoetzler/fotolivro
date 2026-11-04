@@ -1,6 +1,6 @@
-# Travel Journal na Prática
+# Oficina de Memórias
 
-Landing page da imersão online **Travel Journal na Prática**, da Coração de Papel, em Next.js (App Router).
+Landing page da oficina presencial **Oficina de Memórias**, conduzida por Andréa Koetzler na Luzia Trattoria, em Next.js (App Router). Três seções: apresentação, explicação e informações, e formulário de inscrição.
 
 ## Rodar localmente
 
@@ -23,6 +23,27 @@ O projeto também pode ser importado direto na Vercel.
 ## Onde editar
 
 - `app/page.tsx`: textos e estrutura da página
+- `components/InscricaoForm.tsx`: formulário de inscrição (nome, telefone e e-mail)
+- `app/api/inscricao/route.ts`: recebe o formulário e repassa os dados
 - `app/globals.css`: estilos
 - `public/assets/`: imagens
-- `public/videos/`: coloque aqui os vídeos da oficina com estes nomes: `montagem-orientada.mp4`, `criando-juntas.mp4`, `mesa-de-materiais.mp4` e `paginas-em-construcao.mp4`
+
+## Para onde vão as inscrições
+
+O formulário envia os dados para `/api/inscricao`, que repassa um JSON `{ nome, telefone, email, enviadoEm }` por POST para o endereço da variável de ambiente `INSCRICAO_WEBHOOK_URL`. Sem essa variável, o formulário mostra um aviso de erro e nada é gravado.
+
+Para gravar numa planilha do Google:
+
+1. Crie uma planilha com as colunas `enviadoEm`, `nome`, `telefone`, `email`.
+2. Em Extensões > Apps Script, cole:
+
+   ```js
+   function doPost(e) {
+     const d = JSON.parse(e.postData.contents);
+     SpreadsheetApp.getActiveSheet().appendRow([d.enviadoEm, d.nome, d.telefone, d.email]);
+     return ContentService.createTextOutput("ok");
+   }
+   ```
+
+3. Implante como app da Web, com acesso para "Qualquer pessoa", e copie a URL.
+4. Na Vercel, em Settings > Environment Variables, crie `INSCRICAO_WEBHOOK_URL` com essa URL e faça um novo deploy.
