@@ -3,12 +3,12 @@ import InscricaoForm from "@/components/InscricaoForm";
 export default function Home() {
   return (
     <>
-<div className="strip"><span>OFICINA DE MEMÓRIAS · COM ANDRÉA KOETZLER</span><span>ENCONTRO PRESENCIAL</span></div>
+<div className="strip"><span>OFICINA DE MEMÓRIAS · COM ANDRÉA KOETZLER</span><span>18 DE NOVEMBRO · 13H30 ÀS 17H30</span></div>
 
 <main id="inicio">
 <section className="wrap hero">
   <div className="hero-copy">
-    <p className="eyebrow">Oficina presencial com Andréa Koetzler · cerca de 4 horas</p>
+    <p className="eyebrow">Oficina presencial com Andréa Koetzler · 18 de novembro, das 13h30 às 17h30</p>
     <h1>Oficina de Memórias:<br className="d" /> suas fotos favoritas<br className="d" /> em um álbum feito à mão</h1>
     <p className="lead">Um encontro para celebrar nossas fotografias mais preciosas e colocá-las em um álbum, para revivê-las a qualquer tempo com a família e os amigos.</p>
     <ul className="check">
@@ -22,7 +22,7 @@ export default function Home() {
     <div className="seal" role="img" aria-label="Encontro de 4 horas"><small>encontro de</small><b>4 horas</b><i>✳</i></div>
     <figure className="polaroid">
       <span className="tape" aria-hidden="true"></span>
-      <img src="/assets/oficina-hero.jpg" width="515" height="531" alt="Mãos recortando e montando páginas com fotos impressas sobre a mesa." />
+      <img src="/assets/andrea-oficina.jpg" width="825" height="1100" alt="Andréa Koetzler sorrindo, segurando uma caixa e um álbum, diante de uma parede com porta-retratos antigos." />
       <figcaption>memórias que saem da tela</figcaption>
     </figure>
   </div>
@@ -63,8 +63,9 @@ export default function Home() {
 <section className="band pad100 bg-4" id="participar">
   <div className="wrap offer">
     <div className="offer-l">
+      <p className="eyebrow">Oficina presencial com Andréa Koetzler · 18 de novembro, das 13h30 às 17h30</p>
       <h2 className="h2">Quero participar da<br className="d" /> <em>Oficina de Memórias.</em></h2>
-      <p>Deixe seu nome e contato. Você recebe a data, o valor e como confirmar sua vaga.</p>
+      <p>Deixe seu nome e contato. Você recebe o valor e como confirmar sua vaga.</p>
     </div>
     <InscricaoForm />
   </div>
