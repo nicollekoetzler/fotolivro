@@ -3,7 +3,7 @@ import InscricaoForm from "@/components/InscricaoForm";
 export default function Home() {
   return (
     <>
-<div className="strip"><span>OFICINA DE MEMÓRIAS · COM ANDRÉA KOETZLER</span><span>ENCONTRO PRESENCIAL · LUZIA TRATTORIA</span></div>
+<div className="strip"><span>OFICINA DE MEMÓRIAS · COM ANDRÉA KOETZLER</span><span>ENCONTRO PRESENCIAL</span></div>
 
 <main id="inicio">
 <section className="wrap hero">
@@ -73,7 +73,7 @@ export default function Home() {
 
 <footer>
   <div className="wrap">
-    <a className="f-logo" href="#inicio"><b>Oficina de Memórias</b><i>com Andréa Koetzler · na Luzia Trattoria</i></a>
+    <a className="f-logo" href="#inicio"><b>Oficina de Memórias</b><i>com Andréa Koetzler</i></a>
     <a className="to-top" href="#inicio">Voltar ao início ↑</a>
   </div>
 </footer>
