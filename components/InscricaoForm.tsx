@@ -49,7 +49,7 @@ export default function InscricaoForm() {
         <span className="tape" aria-hidden="true"></span>
         <p className="eyebrow">Inscrição recebida</p>
         <h3>Obrigada, {nome.trim().split(" ")[0]}!</h3>
-        <p>Seu contato foi registrado. Em breve você recebe o valor e como confirmar a vaga para o dia 18 de novembro.</p>
+        <p>Seu contato foi registrado. Em breve você recebe como confirmar a vaga para o dia 18 de novembro.</p>
       </div>
     );
   }
