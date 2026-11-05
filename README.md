@@ -32,7 +32,13 @@ O projeto também pode ser importado direto na Vercel.
 
 O formulário envia os dados para `/api/inscricao`, que repassa um JSON `{ nome, telefone, email, enviadoEm }` por POST para o endereço da variável de ambiente `INSCRICAO_WEBHOOK_URL`. Sem essa variável, o formulário mostra um aviso de erro e nada é gravado.
 
-Para gravar numa planilha do Google:
+Para receber cada inscrição por e-mail (Formspree, grátis até 50 por mês):
+
+1. Crie uma conta em https://formspree.io e clique em "New Form", informando o e-mail que vai receber as inscrições.
+2. Copie o endereço do formulário, no formato `https://formspree.io/f/xxxxxxx`.
+3. O site já usa o formulário `https://formspree.io/f/mqppjgqe` por padrão. Para trocar, crie `INSCRICAO_WEBHOOK_URL` na Vercel (Settings > Environment Variables) com o novo endereço e faça um novo deploy.
+
+Ou, para gravar numa planilha do Google:
 
 1. Crie uma planilha com as colunas `enviadoEm`, `nome`, `telefone`, `email`.
 2. Em Extensões > Apps Script, cole:

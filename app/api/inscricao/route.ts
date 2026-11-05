@@ -1,5 +1,6 @@
 // Recebe a inscrição do formulário e repassa para o endereço definido em
-// INSCRICAO_WEBHOOK_URL (por exemplo, um Google Apps Script que grava numa planilha).
+// INSCRICAO_WEBHOOK_URL (por exemplo, um formulário do Formspree, que envia por e-mail,
+// ou um Google Apps Script que grava numa planilha).
 export async function POST(req: Request) {
   let body: { nome?: unknown; telefone?: unknown; email?: unknown };
   try {
@@ -15,7 +16,7 @@ export async function POST(req: Request) {
     return Response.json({ error: "Dados inválidos" }, { status: 400 });
   }
 
-  const url = process.env.INSCRICAO_WEBHOOK_URL;
+  const url = process.env.INSCRICAO_WEBHOOK_URL || "https://formspree.io/f/mqppjgqe";
   if (!url) {
     console.error("INSCRICAO_WEBHOOK_URL não configurada");
     return Response.json({ error: "Inscrições indisponíveis" }, { status: 503 });
@@ -23,7 +24,7 @@ export async function POST(req: Request) {
 
   const res = await fetch(url, {
     method: "POST",
-    headers: { "Content-Type": "application/json" },
+    headers: { "Content-Type": "application/json", Accept: "application/json" },
     body: JSON.stringify({ nome, telefone, email, enviadoEm: new Date().toISOString() }),
   });
   if (!res.ok) {
