@@ -36,7 +36,7 @@ Para receber cada inscrição por e-mail (Formspree, grátis até 50 por mês):
 
 1. Crie uma conta em https://formspree.io e clique em "New Form", informando o e-mail que vai receber as inscrições.
 2. Copie o endereço do formulário, no formato `https://formspree.io/f/xxxxxxx`.
-3. Na Vercel, em Settings > Environment Variables, crie `INSCRICAO_WEBHOOK_URL` com esse endereço e faça um novo deploy.
+3. O site já usa o formulário `https://formspree.io/f/mqppjgqe` por padrão. Para trocar, crie `INSCRICAO_WEBHOOK_URL` na Vercel (Settings > Environment Variables) com o novo endereço e faça um novo deploy.
 
 Ou, para gravar numa planilha do Google:
 

@@ -16,7 +16,7 @@ export async function POST(req: Request) {
     return Response.json({ error: "Dados inválidos" }, { status: 400 });
   }
 
-  const url = process.env.INSCRICAO_WEBHOOK_URL;
+  const url = process.env.INSCRICAO_WEBHOOK_URL || "https://formspree.io/f/mqppjgqe";
   if (!url) {
     console.error("INSCRICAO_WEBHOOK_URL não configurada");
     return Response.json({ error: "Inscrições indisponíveis" }, { status: 503 });
