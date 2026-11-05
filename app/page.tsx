@@ -65,7 +65,9 @@ export default function Home() {
     <div className="offer-l">
       <p className="eyebrow">18 de novembro · 13h30 às 17h30</p>
       <h2 className="h2">Quero participar da<br className="d" /> <em>Oficina de Memórias.</em></h2>
-      <p>Deixe seu nome e contato. Você recebe o valor e como confirmar sua vaga.</p>
+      <p className="valor">R$ 360</p>
+      <p className="valor-inclui">Incluso: álbum 15×21 · 38 fotos reveladas · envelope e cartão afetivo · comidinhas</p>
+      <p>Deixe seu nome e contato. Você recebe como confirmar sua vaga.</p>
     </div>
     <InscricaoForm />
   </div>

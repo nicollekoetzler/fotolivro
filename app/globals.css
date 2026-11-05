@@ -224,6 +224,8 @@ details[open]>summary::after{transform:rotate(45deg)}
 .items span{display:block;font-size:12px;line-height:20.4px;color:#626b54;padding-top:3px}
 .offer-l .total{font:700 13px/21.45px var(--sans);color:var(--olive);max-width:375px;padding-top:3px}
 .offer-l .small{font-size:11px;line-height:18.7px;max-width:375px}
+.offer-l>p.valor{font:400 56px/1 var(--serif);color:var(--rust);padding-top:6px}
+.offer-l>p.valor-inclui{font:700 13px/21.45px var(--sans);color:var(--olive)}
 .price{position:sticky;top:20px;background:#fffdf8;border:1px solid #d6d8c7;box-shadow:0 12px 15px rgba(65,71,47,.04);padding:38px 39px 26px;text-align:center}
 .price .tape{width:100px;height:24px;left:calc(50% - 50px);top:-14px;transform:rotate(-3deg);background:rgba(181,185,150,.67);clip-path:none}
 .price .eyebrow{font-size:9px;line-height:13.5px}
